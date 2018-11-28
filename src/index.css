@@ -1,0 +1,32 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ body {
+   background-color: #333;
+   color: #fff;
+   text-align: center;
+ }
+
+ .App {
+   background-image: linear-gradient(to bottom right, rgba(40, 40, 201, 0.699), rgba(139, 12, 243, 0.61)), url('./public/img/img.jpeg');
+   background-size: cover;
+   height: 100vh;
+   padding-top: 70px;
+   width: 100vw;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+ }
+
+ .App h1 {
+   font-size: 56px;
+   font-weight: bold;
+ }
+
+ .App p {
+   font-size: 36px;
+ }
